@@ -1,0 +1,27 @@
+{
+  "name": "proyectograduacion",
+  "version": "1.0.0",
+  "description": "Proyecto de Graduación",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhcc-developer/ProyectoGraduacion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhcc-developer/ProyectoGraduacion/issues"
+  },
+  "homepage": "https://github.com/bhcc-developer/ProyectoGraduacion#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10",
+    "multer": "^1.4.2"
+  }
+}
